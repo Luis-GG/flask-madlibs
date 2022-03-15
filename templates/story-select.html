@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="cont">
+    <form class="story_select" action="/questions">
+        <label for="story-select">Choose a Story:</label>
+
+        <select name="story_id" id="story-select">
+            <option value="">--Please choose a story--</option>
+            <option value="1">Story 1</option>
+            <option value="2">Story 2</option>
+            <option value="3">Story 3</option>
+
+        </select>
+        <button>Submit</button>
+    </form>
+</div>
+
+
+
+{% endblock %}
